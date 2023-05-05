@@ -1,0 +1,202 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+header,.intro, footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+header {
+    display: flex;
+
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: #E5E7EB;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.intro p{
+    color: #E5E7EB;
+}
+
+.imageIntro {
+    display: flex;
+    flex-shrink: 0;
+    width: 500px;
+    height: 300px;
+}
+
+header .links {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+header .logo {
+    display: flex;
+    flex-shrink: 0;
+    padding: 20px;
+    margin-top: auto;
+}
+
+.intro {
+    display: flex;
+    padding: 40px;
+    align-items: center;
+}
+
+.containerImage {
+    display: flex;
+    margin-left: auto;
+    margin-right: 200px;
+}
+
+img {
+    border-radius: 1em;
+}
+
+.botonJugar, .buttonRegister {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px;
+    border-radius: 12px;
+    border: 0;
+}
+
+.botonJugar {
+    padding: 10px;
+    font-size: 20px;
+}
+
+/*Second Main */
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.features{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.image2Main {
+display: flex;
+flex-direction: column;
+height: 350px;
+align-items: center;
+}
+
+.image2Main img {
+    align-self: center;
+  }
+  
+figcaption {
+    font-size: 24px;
+}
+.imageBorder {
+    border: 8px solid #3882F6;
+}
+
+/* Section Three*/
+
+.testimonial {
+    background-color: #E5E7EB;
+    padding: 60px;
+}
+
+#testimonialID {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#testimonialName {
+    display: flex;
+    justify-content: end;
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+/*Forth Section*/
+.forth {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    max-width: 66%;
+}
+.container {
+    display: flex;
+    width: 1200px;
+    background-color: #3882F6;
+    padding: 20px;
+    border-radius: 1em;
+    color: white;
+}
+.containerText {
+    margin-left: 30px;
+}
+
+.register {
+    font-weight: 900;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.letsPlay {
+    font-size: 24px;
+    margin-top: 0;
+}
+.signUpBottom {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.buttonRegister {
+    border: 3px solid white;
+    width: 150px;
+    padding: 4px;
+    font-size: 20px;
+}
+
+
+/* Footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
